@@ -1,10 +1,10 @@
 {
   "extensionDescription": {
-    "message": "마우스 제스처를 사용하여 더 빠르게 찾고 탐색하고, 조작하세요! 다양한 명령으로 사용자 지정 가능한 마우스 제스처 애드온입니다.",
+    "message": "마우스 제스처를 사용하여 더 빠르게 찾고 탐색하고, 조작하세요! 다양한 명령으로 사용자 지정 가능한 마우스 제스처 확장 기능입니다.",
     "description": "Navigate, operate, and browse faster with mouse gestures! A customizable mouse gesture add-on with a variety of different commands."
   },
   "addonUpdateNotificationTitle": {
-    "message": "$NAME$ 애드온이 업데이트되었습니다!",
+    "message": "$NAME$ 확장 기능이 업데이트되었습니다!",
     "description": "Gesturefy add-on has been updated!",
     "placeholders": {
       "name": {
@@ -64,19 +64,19 @@
     "description": "Matching algorithm"
   },
   "settingLabelMatchingAlgorithmCombined": {
-    "message": "결합됨",
+    "message": "복합적",
     "description": "Combined"
   },
   "settingLabelMatchingAlgorithmStrict": {
-    "message": "완전한",
+    "message": "엄격한",
     "description": "Strict"
   },
   "settingLabelMatchingAlgorithmShapeIndependent": {
-    "message": "독립적 모양",
+    "message": "형태 독립적",
     "description": "Shape-Independent"
   },
   "settingLabelTimeoutActive": {
-    "message": "유휴 시간 초과 활성화",
+    "message": "유휴 시 취소 활성화",
     "description": "Activate idle timeout"
   },
   "settingLabelTimeoutDuration": {
@@ -132,7 +132,7 @@
     "description": "Line growth"
   },
   "settingLabelDisplayCommand": {
-    "message": "명령 표시",
+    "message": "명령어 표시",
     "description": "Display command"
   },
   "settingLabelCommandFontColor": {
@@ -160,7 +160,7 @@
     "description": "Display update notification"
   },
   "settingDescriptionMouseButton": {
-    "message": "버튼을 누르고있는 동안 새 마우스 제스처를 캡처합니다.",
+    "message": "버튼을 누르는 동안 새 마우스 제스처를 캡처합니다.",
     "description": "Captures a new mouse gesture while the button is held down."
   },
   "settingDescriptionMatchingAlgorithm": {
@@ -180,7 +180,7 @@
     "description": "The duration in seconds until the gesture is cancelled."
   },
   "settingDescriptionSuppressionKey": {
-    "message": "수정자 키를 누르고 있는 동안에는 제스처가 트리거되는 것을 방지합니다.",
+    "message": "수정 키를 누르고 있는 동안에는 제스처가 트리거되는 것을 방지합니다.",
     "description": "Prevents a gesture from being triggered while the modifier key is pressed."
   },
   "settingDescriptionDistanceThreshold": {
@@ -188,7 +188,7 @@
     "description": "The minimum distance the mouse must be moved until the start of a gesture is recognized."
   },
   "settingDescriptionDeviationTolerance": {
-    "message": "일치하는 것으로 인식할 허용 가능한 제스처 편차.",
+    "message": "일치하는 것으로 인식할 제스처 편차.",
     "description": "The permissible gesture deviation that should still be recognized as a match."
   },
   "settingDescriptionDisplayTrace": {
@@ -196,7 +196,7 @@
     "description": "Displays a trace along the mouse movement."
   },
   "settingDescriptionTraceGrowth": {
-    "message": "선 두께 증가 여부를 결정합니다.",
+    "message": "선 두께가 굵어질지 결정합니다.",
     "description": "Determines if the line thickness should grow."
   },
   "settingDescriptionDisplayCommand": {
@@ -332,7 +332,7 @@
     "description": "Source code"
   },
   "aboutLinkAddon": {
-    "message": "애드온 페이지",
+    "message": "확장 기능 페이지",
     "description": "Add-on page"
   },
   "aboutRestoreNotificationNoConfigFile": {
@@ -492,11 +492,11 @@
     "description": "Move tab to end"
   },
   "commandLabelMoveTabRight": {
-    "message": "Move tab right",
+    "message": "탭을 오른쪽으로 이동",
     "description": "Move tab right"
   },
   "commandLabelMoveTabLeft": {
-    "message": "Move tab left",
+    "message": "탭을 왼쪽으로 이동",
     "description": "Move tab left"
   },
   "commandLabelMoveTabToNewWindow": {
@@ -688,15 +688,15 @@
     "description": "View page source"
   },
   "commandLabelPopupAllTabs": {
-    "message": "[Popup] 모든 탭",
+    "message": "[팝업] 모든 탭",
     "description": "[Popup] All tabs"
   },
   "commandLabelPopupRecentlyClosedTabs": {
-    "message": "[Popup] 최근 닫힌 탭",
+    "message": "[팝업] 최근 닫힌 탭",
     "description": "[Popup] Recently closed tabs"
   },
   "commandLabelPopupSearchEngines": {
-    "message": "[Popup] 검색 엔진",
+    "message": "[팝업] 검색 엔진",
     "description": "[Popup] Search engines"
   },
   "commandLabelPopupCustomCommandList": {
@@ -704,7 +704,7 @@
     "description": "[Popup] Custom command list"
   },
   "commandLabelSendMessageToOtherAddon": {
-    "message": "다른 애드온으로 메시지 보내기",
+    "message": "다른 확장 기능으로 메시지 보내기",
     "description": "Send message to other add-on"
   },
   "commandLabelExecuteUserScript": {
@@ -712,7 +712,7 @@
     "description": "Execute user script"
   },
   "commandLabelClearBrowsingData": {
-    "message": "인터넷 탐색 데이터 삭제",
+    "message": "인터넷 탐색 기록 삭제",
     "description": "Clear browsing data"
   },
   "commandLabelRunMultiPurposeCommand": {
@@ -832,15 +832,15 @@
     "description": "Switches between maximized and normal window size."
   },
   "commandDescriptionToggleFullscreen": {
-    "message": "전체 화면 모드 활성/ 비활성",
+    "message": "전체 화면 모드 활성화/ 비활성화",
     "description": "Activates or deactivates full screen mode."
   },
   "commandDescriptionNewWindow": {
-    "message": "새 빈 창으로 열기",
+    "message": "새 창으로 열기",
     "description": "Opens a new empty window."
   },
   "commandDescriptionNewPrivateWindow": {
-    "message": "새 빈 개인 창으로 열기",
+    "message": "새 사생활 보호 창으로 열기",
     "description": "Opens a new empty private window."
   },
   "commandDescriptionEnterFullscreen": {
@@ -856,11 +856,11 @@
     "description": "Moves the current tab to the end of the tab strip."
   },
   "commandDescriptionMoveTabRight": {
-    "message": "Moves the current tab rightwards inside the tab strip.",
+    "message": "현재 탭 오른쪽으로 이동",
     "description": "Moves the current tab rightwards inside the tab strip."
   },
   "commandDescriptionMoveTabLeft": {
-    "message": "Moves the current tab leftwards inside the tab strip.",
+    "message": "현재 탭 왼쪽으로 이동",
     "description": "Moves the current tab leftwards inside the tab strip."
   },
   "commandDescriptionMoveTabToNewWindow": {
@@ -1068,11 +1068,11 @@
     "description": "Opens a popup containing a custom list of multiple commands and offers the possibility to run one of them."
   },
   "commandDescriptionSendMessageToOtherAddon": {
-    "message": "사용자 정의 메시지를 다른 애드온으로 보냅니다. 이것은 다른 애드온 기능의 사용이 허용됩니다.",
+    "message": "사용자 정의 메시지를 다른 확장 기능으로 보냅니다. 이것은 다른 확장 기능의 사용이 허용됩니다.",
     "description": "Sends a custom message to another add-on. This allows the use of other add-ons functionality."
   },
   "commandDescriptionExecuteUserScript": {
-    "message": "현재의 웹페이지에 사용자 JavaScript를 실행합니다",
+    "message": "현재의 웹페이지에 지정한 JavaScript를 실행합니다",
     "description": "Executes custom JavaScript code in the current webpage."
   },
   "commandDescriptionClearBrowsingData": {
@@ -1196,7 +1196,7 @@
     "description": "Custom text"
   },
   "commandSettingLabelAddonId": {
-    "message": "애드온 ID",
+    "message": "확장 기능 ID",
     "description": "Add-on ID"
   },
   "commandSettingLabelAddonMessage": {
@@ -1384,7 +1384,7 @@
     "description": "Determines if the \"Save As\" dialog should appear or the file should be downloaded silently to the users default download folder."
   },
   "commandSettingDescriptionCustomURL": {
-    "message": "열어야할 URL",
+    "message": "열어야 할 URL",
     "description": "The URL that should be opened."
   },
   "commandSettingDescriptionCustomText": {
@@ -1392,11 +1392,11 @@
     "description": "The text or symbols that should be inserted."
   },
   "commandSettingDescriptionAddonId": {
-    "message": "메시지를 보내야할 애드온의 확장 ID입니다.",
+    "message": "메시지를 보내야할 확장 기능의 확장 ID입니다.",
     "description": "The extension ID of the add-on the message should be sent to."
   },
   "commandSettingDescriptionAddonMessage": {
-    "message": "애드온으로 보내야할 메시지 문자열입니다.",
+    "message": "확장 기능으로 보내야할 메시지 문자열입니다.",
     "description": "The message string that should be sent to the add-on."
   },
   "commandSettingDescriptionParseMessage": {
@@ -1458,7 +1458,7 @@
     "description": "The specified message string could not be parsed to a JavaScript object. Click here for more information."
   },
   "commandErrorNotificationMessageMissingRecipient": {
-    "message": "지정한 확장 ID가 기존 애드온에 없거나 애드온에서 메시지를 받지 못합니다. 자세한 내용을 보려면 여기를 클릭하세요.",
+    "message": "지정한 확장 ID가 기존 확장 기능에 없거나 확장 기능에서 메시지를 받지 못합니다. 자세한 내용을 보려면 여기를 클릭하세요.",
     "description": "The specified extension ID either does not belong to an existing add-on or the add-on does not receive messages. Click here for more information."
   },
   "commandErrorNotificationMessageMissingIncognitoPermissions": {
