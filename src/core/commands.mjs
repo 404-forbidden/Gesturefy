@@ -1874,6 +1874,10 @@ export async function CopyImage (sender, data) {
   }
 }
 
+async function getImageBlob(imageUrl) {
+  const response = await fetch(imageUrl);
+  return response.blob();
+}
 
 export async function SaveImage (sender, data) {
   if (data.target.nodeName.toLowerCase() === "img" && data.target.src && isURL(data.target.src)) {
@@ -1895,8 +1899,12 @@ export async function SaveImage (sender, data) {
       queryOptions.filename = sanitizeFilename(queryOptions.filename) + "." + fileExtension;
     }
     // otherwise use normal url
-    else queryOptions.url = data.target.src;
-
+    else {
+      queryOptions.url = data.target.src;
+      const fileExtension = await getImageBlob(queryOptions.url).split("image/").pop().split(";")[0];
+      queryOptions.filename = sanitizeFilename(queryOptions.filename) + "." + fileExtension;
+    }
+    
     // add referer header, because some websites modify the image if the referer is missing
     // get referrer from content script
     const documentValues = (await browser.tabs.executeScript(sender.tab.id, {
